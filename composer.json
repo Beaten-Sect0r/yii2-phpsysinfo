@@ -1,0 +1,31 @@
+{
+    "name": "beaten-sect0r/yii2-phpsysinfo",
+    "description": "",
+    "keywords": ["yii2"],
+    "authors": [
+        {
+            "name": "Alexander Volkov",
+            "email": "beatensect0r@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/Beaten-Sect0r/yii2-phpsysinfo/issues?state=open",
+        "source": "https://github.com/Beaten-Sect0r/yii2-phpsysinfo"
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+        "2amigos/yii2-highcharts-widget": "*",
+        "phpsysinfo/phpsysinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bs\\phpSysInfo\\": "src"
+        }
+    },
+    "extra": {
+        "bootstrap": "bs\\phpSysInfo\\Bootstrap"
+    }
+}
