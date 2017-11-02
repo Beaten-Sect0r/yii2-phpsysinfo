@@ -1,7 +1,7 @@
 {
     "name": "beaten-sect0r/yii2-phpsysinfo",
-    "description": "",
-    "keywords": ["yii2"],
+    "description": "System information module for Yii2",
+    "keywords": ["yii2", "phpsysinfo"],
     "authors": [
         {
             "name": "Alexander Volkov",
@@ -17,8 +17,9 @@
     },
     "require": {
         "yiisoft/yii2": "*",
-        "2amigos/yii2-highcharts-widget": "*",
-        "phpsysinfo/phpsysinfo": "*"
+        "yiisoft/yii2-bootstrap": "*",
+        "phpsysinfo/phpsysinfo": "3.*",
+        "2amigos/yii2-highcharts-widget": "*"
     },
     "autoload": {
         "psr-4": {
